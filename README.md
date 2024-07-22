@@ -3,7 +3,7 @@ VPT#018-VPC is an android app that easily calculates the mass of alcohol (in gra
 
 It uses the formula: 
 
-$\text{mass [g]} = \frac{\text{volume [mL]} \cdot (\text{Vol.-[ \%]} / 100)}{\text{specific weight of alcohol 0.789 [g/mL]}}$
+mass = volume * percent * 0.789 * 10
 
 - 🖩  **Calculate Volume, Content, Mass**  of the alcohol by entering the 2 other fields.
 
