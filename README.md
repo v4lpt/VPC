@@ -5,7 +5,7 @@ It uses the formula:
 \[
 \text{mass [g]} = \frac{\text{volume [mL]} \cdot (\text{Vol.-\% [\%]} / 100)}{\text{specific weight of alcohol 0.789 [g/mL]}}
 \]
-
+mass [g] = \frac{\text{volume [mL]} \cdot (\text{Vol.-\% [\%]} / 100)}{\text{specific weight of alcohol 0.789 [g/mL]}}
 - 🖩  **Calculate Volume, Content, Mass**  of the alcohol by entering the 2 other fields.
 
 - 🎨 **User-Friendly Design** - Clear buttons and layout, simple to understand.
