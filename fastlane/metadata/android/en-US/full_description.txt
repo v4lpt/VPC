@@ -1,0 +1,24 @@
+<h1 id="vpt-018-volume-percent-calculator">VPT-018 - Volume Percent Calculator</h1>
+<p>VPT#018-VPC allows users to easily calculate the amount of alcohol in grams contained in beverages by entering the volume and alcohol content.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li><p>🖩  <strong>Calculate Volume, Content, Mass</strong>  of the alcohol by entering the 2 other fields.</p>
+</li>
+<li><p>🎨 <strong>User-Friendly Design</strong> - Clear buttons and layout, simple to understand.</p>
+</li>
+<li><p>🔄 <strong>Dynamic Field Adjustments</strong> - Modify any field post-calculation, and the app will update the other relevant fields (right now function via pressing &quot;Calculate&quot; again after modifying fields).</p>
+</li>
+<li><p>🚨 <strong>Plausibility Warnings</strong> The screen will flash red if any of the values are totally out of place, such as above 100% alcohol content or volumes above 10 liters, informing the user that something probably went wrong. Calculation still finishes. </p>
+</li>
+<li><p>🇩🇪 🇺🇸 <strong>Localization</strong> for English and German </p>
+</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<ul>
+<li>Enter your data in any 2 of the 3 fields</li>
+<li>Tap &quot;Calculate&quot; </li>
+<li>View your results </li>
+</ul>
+<p>to clear all 3 fields tap the &quot;clear&quot; Button. </p>
+<p>Tags:
+Alcohol Calculator, Alcohol Content, Volume to Grams, Habit Tracking, Alcohol Consumption, WHO recommendations, Harm Reduction, Addiction, Dependence, Substance Dependence, Responsible Drinking, Controlled Drinking </p>

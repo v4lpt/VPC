@@ -1,0 +1,1 @@
+Android app for calculating alcohol content in drinks, providing volume-based calculations and detailed user instructions.
