@@ -21,5 +21,4 @@
 <li>View your results </li>
 </ul>
 <p>to clear all 3 fields tap the &quot;clear&quot; Button. </p>
-<p>Tags:
-Alcohol Calculator, Alcohol Content, Volume to Grams, Habit Tracking, Alcohol Consumption, WHO recommendations, Harm Reduction, Addiction, Dependence, Substance Dependence, Responsible Drinking, Controlled Drinking </p>
+<p>Tags: Alcohol Calculator, Alcohol Content, Volume to Grams </p>
