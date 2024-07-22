@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="anleitung"><font color="#efcac2"><b>Grundfunktion:</b></font> Berechnet die Menge von Alkohol in Gramm in einem Getränk durch Eingabe der Menge in Volumen (in Milliliter) und Alkoholgehalt (Vol.-\%, steht auf dem Etikett). \n\n<font color="#efcac2"><b>Anwendung:</b></font> Daten eingeben (erste 2 Datenfelder, einfach drauftippen). Tippen auf „Berechne\" errechnet die enthaltende Menge in Gramm Alkohol. „Neu\" löscht alle Felder. \n\n<font color="#efcac2"><b>Zusatzfunktionen:</b></font> Du kannst nach der ersten Berechnung einzelne Felder ändern. Es werden dann sinnvolle andere Felder automatisch berechnet (nochmal Button „Berechne\"). Prinzipiell kann jeder dritte Wert errechnet werden, wenn die anderen beiden gegeben sind, z.B.: „Wie viel darf ich von einem bestimmten Getränk trinken, wenn ich unterhalb der von der WHO empfohlenen Menge in Gramm Alkohol pro Tag bleiben will?\".</string>
+    <string name="copy">Copyright and License Information</string>
+
+    <string name="infobuttontextforblinds">Info Button (gibt dir Informationen)</string>
+    <string name="powertools">Valentin\'s PowerTools #018</string>
+    <string name="infobuttonforblinds">hier info\n</string>
+    <string name="notenoughfields">Bitte füllen Sie mindestens zwei Felder aus</string>
+    <string name="bad_input">Ungültige Eingabe</string>
+    <string name="button_calculate">Berechne</string>
+    <string name="button_clear">Neu</string>
+    <string name="volume_beverage">Menge Getränk\n(Volumen)</string>
+    <string name="pure_alcohol">Reiner Alkohol</string>
+    <string name="unit_vol">Vol.-%</string>
+    <string name="percent_alcohol_edittext">Alkoholgehalt</string>
+    <string name="unit_grams">g</string>
+    <string name="line_pure_alcohol_info">Menge reiner Alkohol für gegebenes Getränk:</string>
+</resources>

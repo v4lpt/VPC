@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">VPT#018-VPC</string>
+    <string name="app_name_show" translatable="false">Volume % Calculator</string>
+
+    <string name="anleitung"><font color="#efcac2"><b>Basic Function:</b></font> Calculate the amount of alcohol in grams in a drink by entering the volume amount and alcohol content (v/v, as stated on the label).
+    \n\n<font color="#efcac2"><b>Usage:</b></font> Enter data (any 2 data fields, just tap on them). Tapping \"Calculate\" computes the contained amount of alcohol in grams. \"Clear\" clears the data fields. In principle, any 2 data points result in calculation of the third one (like volume in milliliter for given amount of alcohol (g) and content (v/v).
+    \n\n<font color="#efcac2"><b>Additional Function:</b></font> After the first calculation, you can also change individual fields. Other relevant fields will then be automatically calculated.
+</string>
+
+    <string name="LICENSE" translatable="false">
+        Copyright 2024 Valentin\'s PowerTools\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. If not, see\nhttps://www.gnu.org/licenses.\n\nHere is the github link: https://github.com/v4lpt/VPC
+
+    </string>
+    <string name="copy">Copyright and License Information</string>
+
+    <string name="infobuttontextforblinds">Information Button (gives you Information)</string>
+    <string name="powertools">Valentin\'s PowerTools #018</string>
+    <string name="infobuttonforblinds">hier info\n</string>
+    <string name="notenoughfields">Please fill in at least 2 fields.</string>
+    <string name="bad_input">Bad Input</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="button_clear">Clear</string>
+    <string name="volume_beverage">Volume of beverage</string>
+    <string name="pure_alcohol">Mass of pure alcohol</string>
+    <string name="unit_vol">v/v</string>
+    <string name="percent_alcohol_edittext">Alcohol content (Vol.-%)</string>
+    <string name="unit_grams">g</string>
+    <string name="line_pure_alcohol_info">Mass of pure alcohol for the given beverage:</string>
+</resources>
