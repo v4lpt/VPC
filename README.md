@@ -1,32 +1,28 @@
-# Alcohol Content Calculator App
+# VPT-018 - Volume Percent Calculator 
+## What is this 
 
-**Overview**  
-The Alcohol Content Calculator app allows users to easily calculate the amount of alcohol in grams contained in beverages by entering the volume and alcohol content. Simply input the data and tap "Calculate" to get instant results.
+This android app allows users to easily calculate the amount of alcohol in grams contained in beverages by entering the volume and alcohol content.
 
-## Key Features
+## Features
 
-- **Calculate Alcohol Content**  
-  Enter the volume (in milliliters) and the alcohol content (in %), and the app will calculate the alcohol in grams.
+- 🖩  **Calculate Volume, Content, Mass**  of the alcohol by entering the 2 other fields.
 
-- **Dynamic Field Adjustments**  
-  After the initial calculation, modify any two fields to automatically compute the third value, facilitating various queries related to alcohol consumption.
+- 🎨 **User-Friendly Design** - Clear buttons and layout, simple to understand.
 
-- **User-Friendly Interface**  
-  Intuitive design with clear buttons for calculation and clearing inputs makes it easy for anyone to use.
+- 🔄 **Dynamic Field Adjustments** - Modify any field post-calculation, and the app will automatically update the other relevant fields for instant feedback.
 
-## How to Use
+- 🚨 **Warnings** The screen will flash red if any of the values are totally out of place, such as above 100% alcohol content or volumes above 10 liters, informing the user that something probably went wrong. Calculation still finishes. 
 
-1. **Input Data**  
-   Tap on any two data fields to enter the volume and alcohol percentage.
+## Usage
 
-2. **Calculate**  
-   Tap "Calculate" to find out the amount of alcohol in grams.
+- Enter your data in any 2 of the 3 fields
+- Tap "Calculate" 
+- View your results 
 
-3. **Clear Data**  
-   Use the "Clear" button to reset the fields.
+to clear all 3 fields tap the "clear" Button. 
 
-4. **Adjust Fields**  
-   Change any individual field post-calculation to see updated values instantly.
+## Screenshots 
+
 
 ## Keywords
 - Alcohol Calculator
@@ -34,5 +30,11 @@ The Alcohol Content Calculator app allows users to easily calculate the amount o
 - Volume to Grams
 - Drink Measurement
 - Alcohol Consumption
-- User Instructions
-- Dynamic Calculations
+- WHO recommendations 
+- Harm Reduction 
+- Addiction 
+- Dependence
+- Substance Dependence 
+- Responsible Drinking 
+- Controlled Drinking 
+
