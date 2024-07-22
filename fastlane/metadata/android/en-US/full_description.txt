@@ -1,5 +1,6 @@
 <h1 id="vpt-018-volume-percent-calculator">VPT-018 - Volume Percent Calculator</h1>
 <p>VPT#018-VPC allows users to easily calculate the amount of alcohol in grams contained in beverages by entering the volume and alcohol content.</p>
+<p>🚨DISCLAIMER🚨: This is NOT a medical application NOR a medical product. This is just a calculator. I do not guarantee correct results. User is responsible for checking results and plausibility.</p>
 <h2 id="features">Features</h2>
 <ul>
 <li><p>🖩  <strong>Calculate Volume, Content, Mass</strong>  of the alcohol by entering the 2 other fields.</p>
@@ -10,7 +11,7 @@
 </li>
 <li><p>🚨 <strong>Plausibility Warnings</strong> The screen will flash red if any of the values are totally out of place, such as above 100% alcohol content or volumes above 10 liters, informing the user that something probably went wrong. Calculation still finishes. </p>
 </li>
-<li><p>🇩🇪 🇺🇸 <strong>Localization</strong> for English and German </p>
+<li><p><strong>Localization</strong> for English and German </p>
 </li>
 </ul>
 <h2 id="usage">Usage</h2>

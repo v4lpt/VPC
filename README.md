@@ -22,7 +22,7 @@ VPT#018-VPC allows users to easily calculate the amount of alcohol in grams cont
 to clear all 3 fields tap the "clear" Button. 
 
 ## Screenshots 
-<img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/1.png" alt="1" width="500" /> <img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/2.png" alt="2" width="500" />
+<img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/2.png" alt="2" width="500" />
  <img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/3.png" alt="3" width="500" /> <img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/4.png" alt="4" width="500" />
 
 
