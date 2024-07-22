@@ -2,9 +2,8 @@
 VPT#018-VPC is an android app that easily calculates the mass of alcohol (in grams) contained in a given volume of an alcoholic solution (in milliliters) when alcohol content (Vol.-% or v/v) is known.
 
 It uses the formula: 
-\[
-\text{mass [g]} = \frac{\text{volume [mL]} \cdot (\text{Vol.-\% [\%]} / 100)}{\text{specific weight of alcohol 0.789 [g/mL]}}
-\]
+
+$\text{mass [g]} = \frac{\text{volume [mL]} \cdot (\text{Vol.-\% [\%]} / 100)}{\text{specific weight of alcohol 0.789 [g/mL]}}$
 mass [g] = \frac{\text{volume [mL]} \cdot (\text{Vol.-\% [\%]} / 100)}{\text{specific weight of alcohol 0.789 [g/mL]}}
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
