@@ -5,7 +5,7 @@ It uses the formula: mass (g) = volume (mL) * Vol-%/100 * specific weight of alc
 
 - 🖩  **Calculate Volume, Content, Mass**  of the alcohol by entering the 2 other fields.
 
-- 🎨 **User-Friendly Design** - Clear buttons and layout, simple to understand.
+- 🎨 **Intuitive Interface"** - Clear buttons and layout, simple to understand.
 
 - 🔄 **Dynamic Field Adjustments** - Modify any data field post-calculation, and the app will update the other relevant fields (right now function via pressing "Calculate" again after modifying fields).
 
