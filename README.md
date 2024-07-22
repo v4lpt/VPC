@@ -26,4 +26,10 @@ to clear all 3 fields tap the "clear" Button.
  <img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/3.png" alt="3" width="500" /> <img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/4.png" alt="4" width="500" />
 
 
+## License
 
+This project is licensed under the **GNU General Public License (GPL)**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Created with :heart: by [Valentin](https://github.com/v4lpt)
