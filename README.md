@@ -2,7 +2,12 @@
 VPT#018-VPC is an android app that easily calculates the mass of alcohol (in grams) contained in a given volume of an alcoholic solution (in milliliters) when alcohol content (Vol.-% or v/v) is known.
 
 It uses the formula: mass (g) = volume (mL) * Vol-%/100 * specific weight of alcohol (0.793 g/mL)
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/v4lpt.vpt.i018.vpc/)
 
+Or download the latest APK from the [Releases Section](https://github.com/v4lpt/VPC/releases/latest).
+## Features 
 - 🖩  **Calculate Volume, Content, Mass**  of the alcohol by entering the 2 other fields.
 
 - 🎨 **Intuitive Interface"** - Clear buttons and layout, simple to understand.
@@ -12,6 +17,7 @@ It uses the formula: mass (g) = volume (mL) * Vol-%/100 * specific weight of alc
 - 🚨 **Plausibility Warnings** - The screen will flash red if any of the values are totally out of place, such as above 100% alcohol content or volumes above 10 liters, informing the user that something probably went wrong. Calculation still finishes. 
 
 - **Localization** - Right now: English, German 
+
 
 ## Usage
 - Enter your data in any 2 of the 3 fields
