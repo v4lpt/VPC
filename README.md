@@ -28,8 +28,14 @@ Or download the latest APK from the [Releases Section](https://github.com/v4lpt/
 - to clear all 3 fields, tap the "clear" Button. 
 
 ## Screenshots 
-<img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/2.png" alt="2" width="500" />
- <img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/4.png" alt="4" width="500" />
+[<img width=200 alt="Screenshot 1"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true)
+[<img width=200 alt="Screenshot 2"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true)
+[<img width=200 alt="Screenshot 3"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true)
+[<img width=200 alt="Screenshot 4"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true)
 
 
 ## License
