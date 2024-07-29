@@ -4,9 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.animation.ArgbEvaluator;
+import android.animation.ObjectAnimator;
+import android.animation.TypeEvaluator;
 import android.animation.ValueAnimator;
 import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffColorFilter;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -138,21 +146,26 @@ public class MainActivity extends AppCompatActivity {
                 if (mengeString.isEmpty()) {
                     menge = gramm / (prozent * 0.789 * 10);
                     editTextMenge.setText(isLiter ? formatLiter(menge) : formatMilliliter(menge * 1000));
+                    flashEditText(editTextMenge);
                 } else if (prozentString.isEmpty()) {
                     prozent = gramm / (menge * 0.789 * 10);
                     editTextProzent.setText(formatProzent(prozent));
+                    flashEditText(editTextProzent);
                 } else {
                     gramm = menge * prozent * 0.789 * 10;
                     editTextGramm.setText(formatGramm(gramm));
+                    flashEditText(editTextGramm);
                 }
             } else if (filledFields == 3) {
                 // Overwrite one value based on focus
                 if (editTextMenge.hasFocus()) {
                     gramm = menge * prozent * 0.789 * 10;
                     editTextGramm.setText(formatGramm(gramm));
+                    flashEditText(editTextGramm);
                 } else if (editTextProzent.hasFocus() || editTextGramm.hasFocus()) {
                     menge = gramm / (prozent * 0.789 * 10);
                     editTextMenge.setText(isLiter ? formatLiter(menge) : formatMilliliter(menge * 1000));
+                    flashEditText(editTextMenge);
                 }
             } else {
                 Toast.makeText(this, R.string.notenoughfields, Toast.LENGTH_SHORT).show();
@@ -163,6 +176,40 @@ public class MainActivity extends AppCompatActivity {
         } catch (NumberFormatException e) {
             Toast.makeText(this, R.string.bad_input, Toast.LENGTH_SHORT).show();
         }
+    }
+    private void flashEditText(EditText editText) {
+        // Store the original background
+        final Drawable originalBackground = editText.getBackground();
+
+        // Create a red color filter
+        PorterDuffColorFilter redFilter = new PorterDuffColorFilter(Color.RED, PorterDuff.Mode.SRC_ATOP);
+
+        // Apply the red filter
+        editText.getBackground().setColorFilter(redFilter);
+
+        // Animate back to original
+        ValueAnimator animator = ValueAnimator.ofFloat(1f, 0f);
+        animator.setDuration(700); // 1 second total animation
+        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                float value = (float) animation.getAnimatedValue();
+                int alpha = (int) (255 * value);
+                editText.getBackground().setColorFilter(new PorterDuffColorFilter(
+                        Color.argb(alpha, 255, 0, 0), PorterDuff.Mode.SRC_ATOP));
+                editText.invalidate();
+            }
+        });
+        animator.addListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                // Ensure we remove the filter at the end
+                editText.getBackground().clearColorFilter();
+            }
+        });
+
+        // Start with a delay
+        editText.postDelayed(animator::start, 300);
     }
 
     private void resetFields() {
