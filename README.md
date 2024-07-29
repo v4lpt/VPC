@@ -3,6 +3,12 @@ VPT#018-VPC is an android app that easily calculates the mass of alcohol (in gra
 
 It uses the formula: mass (g) = volume (mL) * Vol-%/100 * specific weight of alcohol (0.793 g/mL)
 
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/v4lpt.vpt.i018.vpc/)
+
+Or download the latest APK from the [Releases Section](https://github.com/v4lpt/VPC/releases/latest).
+## Features 
 - 🖩  **Calculate Volume, Content, Mass**  of the alcohol by entering the 2 other fields.
 
 - 🎨 **Intuitive Interface"** - Clear buttons and layout, simple to understand.
@@ -13,6 +19,7 @@ It uses the formula: mass (g) = volume (mL) * Vol-%/100 * specific weight of alc
 
 - **Localization** - Right now: English, German 
 
+
 ## Usage
 - Enter your data in any 2 of the 3 fields
 - Tap "Calculate" 
@@ -21,8 +28,12 @@ It uses the formula: mass (g) = volume (mL) * Vol-%/100 * specific weight of alc
 - to clear all 3 fields, tap the "clear" Button. 
 
 ## Screenshots 
-<img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/2.png" alt="2" width="500" />
- <img src="https://raw.githubusercontent.com/v4lpt/VPC/master/Screenshots/4.png" alt="4" width="500" />
+[<img width=200 alt="Screenshot 1"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true)
+[<img width=200 alt="Screenshot 2"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true)
+[<img width=200 alt="Screenshot 3"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true)
 
 
 ## License
