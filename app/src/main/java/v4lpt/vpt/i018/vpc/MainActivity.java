@@ -181,12 +181,10 @@ public class MainActivity extends AppCompatActivity {
         // Store the original background
         final Drawable originalBackground = editText.getBackground();
 
-        // Create a red color filter
-        PorterDuffColorFilter redFilter = new PorterDuffColorFilter(Color.RED, PorterDuff.Mode.SRC_ATOP);
-
-        // Apply the red filter
-        editText.getBackground().setColorFilter(redFilter);
-
+        // Create a green color filter
+        PorterDuffColorFilter greenFilter = new PorterDuffColorFilter(ContextCompat.getColor(this, R.color.green), PorterDuff.Mode.SRC_ATOP);
+        // Apply the green filter
+        editText.getBackground().setColorFilter(greenFilter);
         // Animate back to original
         ValueAnimator animator = ValueAnimator.ofFloat(1f, 0f);
         animator.setDuration(700); // 1 second total animation
@@ -196,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
                 float value = (float) animation.getAnimatedValue();
                 int alpha = (int) (255 * value);
                 editText.getBackground().setColorFilter(new PorterDuffColorFilter(
-                        Color.argb(alpha, 255, 0, 0), PorterDuff.Mode.SRC_ATOP));
+                        Color.argb(alpha, 0, 102, 102), PorterDuff.Mode.SRC_ATOP));
                 editText.invalidate();
             }
         });
