@@ -11,10 +11,10 @@
     <string name="bad_input">Ungültige Eingabe</string>
     <string name="button_calculate">Berechne</string>
     <string name="button_clear">Neu</string>
-    <string name="volume_beverage">Menge Getränk\n(Volumen)</string>
+    <string name="volume_beverage">Menge Flüssigkeit\n(Volumen)</string>
     <string name="pure_alcohol">Reiner Alkohol</string>
     <string name="unit_vol">Vol.-%</string>
     <string name="percent_alcohol_edittext">Alkoholgehalt</string>
     <string name="unit_grams">g</string>
-    <string name="line_pure_alcohol_info">Menge reiner Alkohol für gegebenes Getränk:</string>
+    <string name="line_pure_alcohol_info">Menge reiner Alkohol für gegebene Flüssigkeit:</string>
 </resources>

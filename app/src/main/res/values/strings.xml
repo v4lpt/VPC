@@ -29,5 +29,5 @@
     <string name="unit_vol">v/v</string>
     <string name="percent_alcohol_edittext">Alcohol content (Vol.-%)</string>
     <string name="unit_grams">g</string>
-    <string name="line_pure_alcohol_info">Mass of pure alcohol for the given beverage:</string>
+    <string name="line_pure_alcohol_info">Mass of pure alcohol for the given liquid:</string>
 </resources>
