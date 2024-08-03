@@ -30,9 +30,10 @@ src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true">](f
 [<img width=200 alt="Screenshot 3"
 src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true)
 
+🚨DISCLAIMER🚨: This is NOT a medical application NOR a medical product. This is just a calculator. I do not guarantee correct results. User is responsible for checking results and plausibility.
+Features
 
 ## License
-
 This project is licensed under the **GNU General Public License (GPL)**. See the [LICENSE](LICENSE) file for details.
 
 ---
