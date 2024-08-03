@@ -24,7 +24,7 @@
     <string name="bad_input">Bad Input</string>
     <string name="button_calculate">Calculate</string>
     <string name="button_clear">Clear</string>
-    <string name="volume_beverage">Volume of beverage</string>
+    <string name="volume_beverage">Volume of solution</string>
     <string name="pure_alcohol">Mass of pure alcohol</string>
     <string name="unit_vol">v/v</string>
     <string name="percent_alcohol_edittext">Alcohol content (Vol.-%)</string>
