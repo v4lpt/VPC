@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">VPT#018-VPC</string>
+    <string name="app_name" translatable="false">VPT#018-VPC - Volume Percent Calculator</string>
     <string name="app_name_show" translatable="false">Volume % Calculator</string>
 
     <string name="anleitung"><font color="#efcac2"><b>Basic Function:</b></font> Calculate the amount of alcohol (mass, in grams) in a drink by entering the volume of the beverage and the alcohol content (v/v, as stated on the label).
