@@ -11,6 +11,7 @@ It uses the formula: mass (g) = volume (mL) * Vol-%/100 * specific weight of alc
 * <strong>Localization</strong> - Right now: English, German
 
 <b>Usage:<b>
+
 1. Enter your data in any 2 of the 3 fields
 2. Tap "Calculate"
 3. View your results
