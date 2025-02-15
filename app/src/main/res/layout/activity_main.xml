@@ -79,6 +79,7 @@
         android:hint="@string/volume_beverage"
         android:inputType="numberDecimal"
         android:textColor="#FFFFFF"
+        android:textColorHint="#b1b2b6"
         android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@id/buttonMengeEinheit"
         app:layout_constraintHeight_percent="0.067"
@@ -122,6 +123,7 @@
         android:inputType="numberDecimal"
         android:padding="12dp"
         android:textColor="#FFFFFF"
+        android:textColorHint="#b1b2b6"
         android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@id/textViewProzentEinheit"
 
@@ -189,6 +191,7 @@
         android:inputType="numberDecimal"
         android:padding="12dp"
         android:textColor="#FFFFFF"
+        android:textColorHint="#b1b2b6"
         app:layout_constraintEnd_toStartOf="@id/textViewGrammEinheit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewReinerAlkohol"
